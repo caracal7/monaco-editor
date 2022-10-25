@@ -21,7 +21,5 @@ import * as monaco from 'monaco-editor/esm/vs/editor/editor.api';
 
 	document.body.appendChild(div);
 
-	console.log('I`m iframe and my name is', window.name);
-
 	if(window.MonacoIsReady) window.MonacoIsReady(monaco);
 })();
